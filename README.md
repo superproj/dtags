@@ -56,11 +56,12 @@ Usage:
   dtags [IMAGE] [flags]
 
 Flags:
-      --aws-profile string   aws profile
+      --aws-profile string   aws profile.
   -h, --help                 help for dtags
-  -o, --output string        output format (text|json) (default "text")
+      --latest               return only the latest version.
+  -o, --output string        output format (json|text|yaml) (default "text")
   -v, --version              version for dtags
-  -n, --with-name            print with image name
+  -n, --with-name            print with image name.
 ```
 
 ```sh
