@@ -26,12 +26,6 @@ It can also be used as a docker cli plugin.
 
 # Installation
 
-## Homebrew
-
-```sh
-$ brew install koki-develop/tap/dtags
-```
-
 ## go install
 
 ```sh
@@ -45,7 +39,7 @@ $ git clone https://github.com/superproj/dtags.git
 $ cd dtags
 $ make
 $ mkdir -p $HOME/.docker/cli-plugins/
-$ mv ./dist/dtags $HOME/.docker/cli-plugins/
+$ mv ./dist/dtags $HOME/.docker/cli-plugins/docker-tags
 $ docker tags --help
 ```
 

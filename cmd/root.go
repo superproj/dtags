@@ -74,7 +74,7 @@ func Execute() {
 			},
 			manager.Metadata{
 				SchemaVersion:    "0.1.0",
-				Vendor:           "Koki Sato",
+				Vendor:           "Lingfei Kong",
 				Version:          version,
 				ShortDescription: "Command line tool to get a list of tags for docker images",
 				URL:              "https://github.com/superproj/dtags",
